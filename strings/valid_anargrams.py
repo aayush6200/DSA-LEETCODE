@@ -7,10 +7,8 @@ t='eat'
 
 # using two hashmap and comparing both will provide answer
 
-
 hashmap={}
 hashmap2={}
-
 
 for i in s:
     hashmap[i]=1+hashmap.get(i,0)
